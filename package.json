@@ -1,0 +1,14 @@
+{
+  "name": "shopit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix server && npm install --prefix client && npm install --prefix admin",
+    "start":"npm run dev --prefix server && npm run dev --prefix client && npm run dev --prefix admin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}
